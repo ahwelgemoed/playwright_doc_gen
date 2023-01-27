@@ -1,6 +1,6 @@
 # [Playwright](https://playwright.dev/) Docs Creator
 
-## This script is used to generate the docs form Playwright e2e test
+## This script is used to generate the docs from Playwright e2e test
 
 It its a very POC and it is not ready for anything really.
 
@@ -12,10 +12,18 @@ The more I think about this, I dont think it a very good idea, but It can defini
 
 ## Tech
 
-All this is is a custom reporter that generates a markdown file with the steps that the test took.
+All this is is a [custom reporter](https://playwright.dev/docs/test-reporters#custom-reporters) that generates a markdown file with the steps that the test took.
 
 The test output is [here]('./output/create_a_new_github_issue.md')
+
+## How to use
+
+- Clone the repo
+- Run `npm install`
+- Run `npm run test`
 
 ### Some Notes
 
 - Ideally the test will have no screenshot, and we inject the screenshot methods and rerun the test ourselves
+
+- ...
