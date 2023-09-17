@@ -14,6 +14,10 @@ The more I think about this, I dont think it a very good idea, but It can defini
 
 All this is is a [custom reporter](https://playwright.dev/docs/test-reporters#custom-reporters) that generates a markdown file with the steps that the test took.
 
+## Example:
+
+See [here](https://github.com/ahwelgemoed/playwright_doc_gen/blob/main/e2e/newPagess.spec.ts) for the test, but in simple words it a test to test how to create a repo on Github.
+
 The test output is [here](https://github.com/ahwelgemoed/playwright_doc_gen/blob/main/output/create_a_new_github_issue.md)
 
 ## How to use
